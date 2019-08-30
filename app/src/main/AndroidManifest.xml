@@ -47,6 +47,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.CropProductionActivity" />
         </activity>
+        <activity
+            android:name=".activities.SelectProblem"
+            android:label="@string/problem_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.TreatmentDetail"
+            android:label="@string/treatment_detail_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.SelectProblem" />
+        </activity>
     </application>
 
 </manifest>
