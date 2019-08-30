@@ -3,14 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools">
     <group>
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_home"
-            android:title="Home" />
-        <item
-            android:id="@+id/nav_rates"
-            android:icon="@drawable/rates"
-            android:title="Bazaar Rates" />
-        <item
             android:id="@+id/nav_schemes"
             android:icon="@drawable/scheme"
             android:title="Schemes" />

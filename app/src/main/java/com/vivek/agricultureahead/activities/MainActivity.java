@@ -7,27 +7,32 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+
 import android.os.Handler;
 import android.text.method.LinkMovementMethod;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+
+import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
 import com.vivek.agricultureahead.R;
 import com.vivek.agricultureahead.adapters.MainAdapter;
 import com.vivek.agricultureahead.models.MainListItem;
+
+import androidx.drawerlayout.widget.DrawerLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import android.view.Menu;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -39,15 +44,13 @@ public class MainActivity extends AppCompatActivity
     private RecyclerView recyclerView;
     private MainAdapter adapter;
 
-    private Integer[] imageUrls={R.raw.production, R.raw.treat, R.raw.shc2, R.drawable.production_main, R.drawable.horticulture_main, R.raw.govp};
+    private Integer[] imageUrls={R.raw.production,R.raw.treat,R.raw.shc2,R.drawable.horticulture_main,R.raw.govp};
 
-    private Integer[] hindiTexts={R.string.crop_production_card_title_hi, R.string.treatment_card_title_hi,
-            R.string.storage_card_title_hi, R.string.survey_card_title_hi,
-            R.string.horticulture_card_title_hi, R.string.policy_card_title_hi};
+    private Integer[] hindiTexts={R.string.crop_production_card_title_hi,R.string.treatment_card_title_hi,
+            R.string.storage_card_title_hi,R.string.horticulture_card_title_hi,R.string.policy_card_title_hi};
 
-    private Integer[] englishTexts={R.string.crop_production_card_title_en, R.string.treatment_card_title_en,
-            R.string.storage_card_title_en, R.string.survey_card_title_en,
-            R.string.horticulture_card_title_en, R.string.policy_card_title_en};
+    private Integer[] englishTexts={R.string.crop_production_card_title_en,R.string.treatment_card_title_en,
+            R.string.storage_card_title_en,R.string.horticulture_card_title_en,R.string.policy_card_title_en};
 
     private String[] backgroundColors={"#35e372","#a4f075","#ffff4d","#70dbdb","#cef63c","#ff9f80"};
 
@@ -63,7 +66,6 @@ public class MainActivity extends AppCompatActivity
                 new Intent(MainActivity.this, CropProductionActivity.class),
                 new Intent(MainActivity.this, SelectProblem.class),
                 new Intent(MainActivity.this, SoilHealthActivity.class),
-                new Intent(MainActivity.this, SurveyActivity.class),
                 new Intent(MainActivity.this, HorticultureActivity.class),
                 new Intent(MainActivity.this, Select_Policy.class)
         };
@@ -181,18 +183,12 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
-            // Switches to Home
-            startActivity(new Intent(MainActivity.this, MainActivity.class));
-
-        } else if (id == R.id.nav_rates) {
-            // Switches to Rates
-            startActivity(new Intent(MainActivity.this, MainActivity.class));
-
-
-        } else if (id == R.id.nav_agricultural) {
+        if (id == R.id.nav_schemes) {
+            startActivity(new Intent(MainActivity.this,Select_Policy.class));
+        }
+        else if (id == R.id.nav_agricultural) {
             // Switches to Agriculture
-            startActivity(new Intent(MainActivity.this, MainActivity.class));
+            //TODO
 
         } else if (id == R.id.nav_about) {
             // Switches to About
@@ -243,13 +239,9 @@ public class MainActivity extends AppCompatActivity
                 }catch (Exception ex){
                     Toast.makeText(getApplicationContext(), "Permissions required", Toast.LENGTH_SHORT).show();
                 }
-
             }
-
             return true;
-
         }
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
