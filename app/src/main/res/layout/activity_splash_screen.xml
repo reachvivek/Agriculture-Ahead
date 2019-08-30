@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/splash2"
     android:orientation="vertical"
-    tools:context="com.vivek.agricultureahead.SplashScreen">
+    tools:context=".activities.SplashScreen">
 
     <ProgressBar
         android:id="@+id/circularProgressBar"

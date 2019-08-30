@@ -1,14 +1,15 @@
-package com.vivek.agricultureahead;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
+package com.vivek.agricultureahead.activities;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ProgressBar;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.vivek.agricultureahead.R;
 
 import java.util.Timer;
 import java.util.TimerTask;

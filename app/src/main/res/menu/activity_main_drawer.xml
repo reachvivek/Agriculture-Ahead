@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
-
-    <group android:checkableBehavior="single">
+    xmlns:tools="http://schemas.android.com/tools">
+    <group>
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_rates"
+            android:icon="@drawable/rates"
+            android:title="Bazaar Rates" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_schemes"
+            android:icon="@drawable/scheme"
+            android:title="Schemes" />
         <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
+            android:id="@+id/nav_agricultural"
+            android:icon="@drawable/state"
+            android:title="State Agricultural Department" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Help / Feedback">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/contact_us"
+                android:title="Contact Us" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
+                android:id="@+id/nav_helpcentre"
+                android:icon="@drawable/call"
+                android:title="Call Kisaan Help Centre" />
         </menu>
     </item>
 
