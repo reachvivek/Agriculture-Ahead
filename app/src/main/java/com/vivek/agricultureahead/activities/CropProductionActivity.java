@@ -2,6 +2,7 @@ package com.vivek.agricultureahead.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,15 +22,15 @@ public class CropProductionActivity extends AppCompatActivity {
     ArrayList<MainListItem> list;
     MainAdapter adapter;
 
-    Integer[] imageUrls={R.raw.wheat, R.raw.paddy, R.raw.arhar};
+    Integer[] imageUrls={R.raw.wheat,R.raw.paddy,R.raw.arhar};
 
-    Integer[] hindiTexts={R.string.crop1_hi, R.string.crop2_hi,
+    Integer[] hindiTexts={R.string.crop1_hi,R.string.crop2_hi,
             R.string.crop3_hi};
 
-    Integer[] englishTexts={R.string.crop1_en, R.string.crop2_en,
+    Integer[] englishTexts={R.string.crop1_en,R.string.crop2_en,
             R.string.crop3_en};
 
-    String[] backgroundColors={"#86c5f9","#86c5f9","#86c5f9"};
+    String[] backgroundColors={"#FAB301","#DADBDD","#FAB301"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +56,7 @@ public class CropProductionActivity extends AppCompatActivity {
             list.add(item);
         }
 
-        adapter=new MainAdapter(this,list, R.layout.item_horticulture);
+        adapter=new MainAdapter(this,list,R.layout.item_horticulture);
 
         mRecyclerView=(RecyclerView)findViewById(R.id.recycler);
 

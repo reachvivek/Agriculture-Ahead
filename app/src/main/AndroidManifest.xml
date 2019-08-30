@@ -32,6 +32,22 @@
             android:screenOrientation="portrait"
             android:noHistory="true">
         </activity>
+        <activity
+            android:name=".activities.CropProductionActivity"
+            android:label="@string/crops_production_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.CropDetailActivity"
+            android:label="@string/crop_detail_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.CropProductionActivity" />
+        </activity>
     </application>
 
 </manifest>

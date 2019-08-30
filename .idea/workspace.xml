@@ -9,7 +9,21 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fff4876-2f85-44f9-a967-f4ae681452b3" name="Default Changelist" comment="" />
+    <list default="true" id="4fff4876-2f85-44f9-a967-f4ae681452b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropProductionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropProductionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/drawables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/drawables.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,104 +40,161 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1874">
-              <caret line="194" column="77" selection-start-line="194" selection-start-column="77" selection-end-line="194" selection-end-column="77" />
-            </state>
+            <state relative-caret-position="-126" />
           </provider>
+          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/Select_Policy.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropProductionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/SelectProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="46" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="14">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#716#733#0" expanded="true" />
+                <element signature="e#734#751#0" expanded="true" />
+                <element signature="e#765#782#0" expanded="true" />
+                <element signature="e#814#831#0" expanded="true" />
+                <element signature="e#832#849#0" expanded="true" />
+                <element signature="e#863#880#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/SoilHealthActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="120">
+              <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#699#716#0" expanded="true" />
+                <element signature="e#717#734#0" expanded="true" />
+                <element signature="e#735#752#0" expanded="true" />
+                <element signature="e#753#770#0" expanded="true" />
+                <element signature="e#771#788#0" expanded="true" />
+                <element signature="e#802#819#0" expanded="true" />
+                <element signature="e#820#837#0" expanded="true" />
+                <element signature="e#838#855#0" expanded="true" />
+                <element signature="e#856#873#0" expanded="true" />
+                <element signature="e#874#892#0" expanded="true" />
+                <element signature="e#906#924#0" expanded="true" />
+                <element signature="e#925#943#0" expanded="true" />
+                <element signature="e#944#962#0" expanded="true" />
+                <element signature="e#963#981#0" expanded="true" />
+                <element signature="e#1006#1018#0" expanded="true" />
+                <element signature="e#1019#1031#0" expanded="true" />
+                <element signature="e#1032#1044#0" expanded="true" />
+                <element signature="e#1045#1057#0" expanded="true" />
+                <element signature="e#1058#1070#0" expanded="true" />
+                <element signature="e#1071#1083#0" expanded="true" />
+                <element signature="e#1084#1096#0" expanded="true" />
+                <element signature="e#1110#1122#0" expanded="true" />
+                <element signature="e#1123#1135#0" expanded="true" />
+                <element signature="e#1136#1149#0" expanded="true" />
+                <element signature="e#1150#1163#0" expanded="true" />
+                <element signature="e#1164#1177#0" expanded="true" />
+                <element signature="e#1178#1191#0" expanded="true" />
+                <element signature="e#1192#1205#0" expanded="true" />
+                <element signature="e#1230#1242#0" expanded="true" />
+                <element signature="e#1243#1255#0" expanded="true" />
+                <element signature="e#1256#1268#0" expanded="true" />
+                <element signature="e#1269#1281#0" expanded="true" />
+                <element signature="e#1282#1294#0" expanded="true" />
+                <element signature="e#1295#1307#0" expanded="true" />
+                <element signature="e#1308#1320#0" expanded="true" />
+                <element signature="e#1334#1346#0" expanded="true" />
+                <element signature="e#1347#1359#0" expanded="true" />
+                <element signature="e#1360#1373#0" expanded="true" />
+                <element signature="e#1374#1387#0" expanded="true" />
+                <element signature="e#1388#1401#0" expanded="true" />
+                <element signature="e#1402#1415#0" expanded="true" />
+                <element signature="e#1416#1429#0" expanded="true" />
+                <element signature="e#1454#1466#0" expanded="true" />
+                <element signature="e#1467#1479#0" expanded="true" />
+                <element signature="e#1480#1492#0" expanded="true" />
+                <element signature="e#1493#1505#0" expanded="true" />
+                <element signature="e#1506#1518#0" expanded="true" />
+                <element signature="e#1519#1531#0" expanded="true" />
+                <element signature="e#1532#1544#0" expanded="true" />
+                <element signature="e#1558#1570#0" expanded="true" />
+                <element signature="e#1571#1583#0" expanded="true" />
+                <element signature="e#1584#1597#0" expanded="true" />
+                <element signature="e#1598#1611#0" expanded="true" />
+                <element signature="e#1642#1654#0" expanded="true" />
+                <element signature="e#1655#1667#0" expanded="true" />
+                <element signature="e#1668#1680#0" expanded="true" />
+                <element signature="e#1681#1693#0" expanded="true" />
+                <element signature="e#1694#1706#0" expanded="true" />
+                <element signature="e#1707#1719#0" expanded="true" />
+                <element signature="e#1720#1732#0" expanded="true" />
+                <element signature="e#1746#1758#0" expanded="true" />
+                <element signature="e#1759#1771#0" expanded="true" />
+                <element signature="e#1772#1785#0" expanded="true" />
+                <element signature="e#1786#1799#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/SurveyActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/adapters/CropActivityAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/SplashScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="60">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1604#1636#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropProductionActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-570">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/HorticultureActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="46" selection-start-column="46" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_horticulture.xml">
-          <provider selected="true" editor-type-id="text-editor" />
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropDetailActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11890" />
           </provider>
         </entry>
       </file>
@@ -135,25 +206,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropDetailActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/HorticultureActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/Select_Policy.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/SelectProblem.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/SoilHealthActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/SurveyActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/drawables.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropProductionActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropDetailActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="843" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -245,7 +319,32 @@
               <item name="Agriculture-Ahead" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Agriculture-Ahead" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="mipmap" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Agriculture-Ahead" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="raw" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Agriculture-Ahead" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Agriculture-Ahead" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="styles" type="c431d0b8:AndroidResGroupNode" />
             </path>
             <path>
               <item name="Agriculture-Ahead" type="1abcf292:AndroidViewProjectNode" />
@@ -267,6 +366,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vivek.agricultureahead.models" />
+      <recent name="com.vivek.agricultureahead.adapters" />
       <recent name="com.vivek.agricultureahead.activities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -385,15 +486,15 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Find" sideWeight="0.49928468" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Find" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.4985694" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4985694" weight="0.32891566" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49785408" weight="0.32891566" />
       <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.32891566" />
       <window_info anchor="right" id="Preview" weight="0.3297568" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -434,53 +535,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_main.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/adapters/MainAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -493,24 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_horticulture.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropProductionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -575,6 +614,249 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_menu_home.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/mango_main.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/mango.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/jaijawan.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/production_main.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/rates.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/scheme.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/splash2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/splash.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_colors.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/t1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/t2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/state.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/crop_production_opt.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/arhar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/dro.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/govp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/paddy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/production.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/shc2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/treat.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/wheat.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/contact_us.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_horticulture.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/drawables.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11890" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126" />
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="e#1604#1636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropProductionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#716#733#0" expanded="true" />
+            <element signature="e#734#751#0" expanded="true" />
+            <element signature="e#765#782#0" expanded="true" />
+            <element signature="e#814#831#0" expanded="true" />
+            <element signature="e#832#849#0" expanded="true" />
+            <element signature="e#863#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/CropDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#699#716#0" expanded="true" />
+            <element signature="e#717#734#0" expanded="true" />
+            <element signature="e#735#752#0" expanded="true" />
+            <element signature="e#753#770#0" expanded="true" />
+            <element signature="e#771#788#0" expanded="true" />
+            <element signature="e#802#819#0" expanded="true" />
+            <element signature="e#820#837#0" expanded="true" />
+            <element signature="e#838#855#0" expanded="true" />
+            <element signature="e#856#873#0" expanded="true" />
+            <element signature="e#874#892#0" expanded="true" />
+            <element signature="e#906#924#0" expanded="true" />
+            <element signature="e#925#943#0" expanded="true" />
+            <element signature="e#944#962#0" expanded="true" />
+            <element signature="e#963#981#0" expanded="true" />
+            <element signature="e#1006#1018#0" expanded="true" />
+            <element signature="e#1019#1031#0" expanded="true" />
+            <element signature="e#1032#1044#0" expanded="true" />
+            <element signature="e#1045#1057#0" expanded="true" />
+            <element signature="e#1058#1070#0" expanded="true" />
+            <element signature="e#1071#1083#0" expanded="true" />
+            <element signature="e#1084#1096#0" expanded="true" />
+            <element signature="e#1110#1122#0" expanded="true" />
+            <element signature="e#1123#1135#0" expanded="true" />
+            <element signature="e#1136#1149#0" expanded="true" />
+            <element signature="e#1150#1163#0" expanded="true" />
+            <element signature="e#1164#1177#0" expanded="true" />
+            <element signature="e#1178#1191#0" expanded="true" />
+            <element signature="e#1192#1205#0" expanded="true" />
+            <element signature="e#1230#1242#0" expanded="true" />
+            <element signature="e#1243#1255#0" expanded="true" />
+            <element signature="e#1256#1268#0" expanded="true" />
+            <element signature="e#1269#1281#0" expanded="true" />
+            <element signature="e#1282#1294#0" expanded="true" />
+            <element signature="e#1295#1307#0" expanded="true" />
+            <element signature="e#1308#1320#0" expanded="true" />
+            <element signature="e#1334#1346#0" expanded="true" />
+            <element signature="e#1347#1359#0" expanded="true" />
+            <element signature="e#1360#1373#0" expanded="true" />
+            <element signature="e#1374#1387#0" expanded="true" />
+            <element signature="e#1388#1401#0" expanded="true" />
+            <element signature="e#1402#1415#0" expanded="true" />
+            <element signature="e#1416#1429#0" expanded="true" />
+            <element signature="e#1454#1466#0" expanded="true" />
+            <element signature="e#1467#1479#0" expanded="true" />
+            <element signature="e#1480#1492#0" expanded="true" />
+            <element signature="e#1493#1505#0" expanded="true" />
+            <element signature="e#1506#1518#0" expanded="true" />
+            <element signature="e#1519#1531#0" expanded="true" />
+            <element signature="e#1532#1544#0" expanded="true" />
+            <element signature="e#1558#1570#0" expanded="true" />
+            <element signature="e#1571#1583#0" expanded="true" />
+            <element signature="e#1584#1597#0" expanded="true" />
+            <element signature="e#1598#1611#0" expanded="true" />
+            <element signature="e#1642#1654#0" expanded="true" />
+            <element signature="e#1655#1667#0" expanded="true" />
+            <element signature="e#1668#1680#0" expanded="true" />
+            <element signature="e#1681#1693#0" expanded="true" />
+            <element signature="e#1694#1706#0" expanded="true" />
+            <element signature="e#1707#1719#0" expanded="true" />
+            <element signature="e#1720#1732#0" expanded="true" />
+            <element signature="e#1746#1758#0" expanded="true" />
+            <element signature="e#1759#1771#0" expanded="true" />
+            <element signature="e#1772#1785#0" expanded="true" />
+            <element signature="e#1786#1799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/adapters/CropActivityAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
