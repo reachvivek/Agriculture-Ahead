@@ -188,7 +188,7 @@ public class MainActivity extends AppCompatActivity
         }
         else if (id == R.id.nav_agricultural) {
             // Switches to Agriculture
-            //TODO
+            startActivity(new Intent(MainActivity.this,StateDepartment.class));
 
         } else if (id == R.id.nav_about) {
             // Switches to About

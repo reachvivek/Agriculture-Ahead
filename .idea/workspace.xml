@@ -19,7 +19,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/Select_Policy.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/Select_Policy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/MainActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,24 +37,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/HorticultureDetailActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/adapters/HorticultureAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/adapters/HorticultureDetailAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -71,16 +53,18 @@
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
+            <state relative-caret-position="350">
+              <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
               <folding>
-                <element signature="e#3292#3329#0" expanded="true" />
-                <element signature="e#3651#3688#0" expanded="true" />
-                <element signature="e#4005#4027#0" expanded="true" />
+                <element signature="e#3336#3373#0" expanded="true" />
+                <element signature="e#3695#3732#0" expanded="true" />
+                <element signature="e#4049#4071#0" expanded="true" />
+                <element signature="e#4378#4406#0" expanded="true" />
+                <element signature="e#4718#4759#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,14 +79,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2217">
-              <caret line="190" column="18" selection-start-line="190" selection-start-column="18" selection-end-line="190" selection-end-column="18" />
+            <state relative-caret-position="219">
+              <caret line="190" column="79" selection-start-line="190" selection-start-column="79" selection-end-line="190" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/StateDepartment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/adapters/StateDepartmentAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -160,11 +162,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/SelectProblem.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/SoilHealthActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_survey.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_soil_health.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/HorticultureActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
@@ -313,8 +315,8 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.vivek.agricultureahead.activities" />
       <recent name="com.vivek.agricultureahead.adapters" />
+      <recent name="com.vivek.agricultureahead.activities" />
       <recent name="com.vivek.agricultureahead.models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -453,12 +455,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/wheat.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/contact_us.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -765,19 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="e#3292#3329#0" expanded="true" />
-            <element signature="e#3651#3688#0" expanded="true" />
-            <element signature="e#4005#4027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/WebActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -801,10 +784,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2217">
-          <caret line="190" column="18" selection-start-line="190" selection-start-column="18" selection-end-line="190" selection-end-column="18" />
+        <state relative-caret-position="219">
+          <caret line="190" column="79" selection-start-line="190" selection-start-column="79" selection-end-line="190" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/adapters/StateDepartmentAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vivek/agricultureahead/activities/StateDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+          <folding>
+            <element signature="e#3336#3373#0" expanded="true" />
+            <element signature="e#3695#3732#0" expanded="true" />
+            <element signature="e#4049#4071#0" expanded="true" />
+            <element signature="e#4378#4406#0" expanded="true" />
+            <element signature="e#4718#4759#0" expanded="true" />
           </folding>
         </state>
       </provider>
