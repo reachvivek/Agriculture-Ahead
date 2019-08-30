@@ -63,6 +63,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.SelectProblem" />
         </activity>
+        <activity
+            android:name=".activities.SoilHealthActivity"
+            android:label="@string/title_activity_soil_health"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
