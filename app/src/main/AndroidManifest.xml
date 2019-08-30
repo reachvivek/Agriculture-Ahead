@@ -87,6 +87,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.HorticultureActivity" />
         </activity>
+        <activity
+            android:name=".activities.Select_Policy"
+            android:label="@string/policy_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.WebActivity"
+            android:label="@string/title_activity_web"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.Select_Policy" />
+        </activity>
     </application>
 
 </manifest>
