@@ -29,3 +29,21 @@ Programming Language Used: Java
 
 ## WHY DO I THINK THIS IS USEFUL?  
 Mobile Applications are an amiable option for transmitting information to the people in villages and rural areas. Today farmers are receiving diverse facts or information about faming like seeds, crop selection, crop processes weather, fertilizer, pesticides etc. from various resources which are distributed on many different locations according to its origin, its processors, producers or vendors. It is true that the information is available by means of several applications, videos, images, but the problem lies in the fact that the information is not available at the same platform- a system which covers all the important information about all the domains of agriculture, and available at their location. So, this app assimilates all the relevant important information from all the resources and puts it forward to the end user and in this way it helps the farmers and other people gain knowledge and insights involving or surrounding agriculture domain.
+
+## PREVIEW
+
+![alt tag](https://i.ibb.co/Yf18VCD/Unknown-1.jpg)
+![alt tag](https://i.ibb.co/Z15y2rs/Unknown-2.jpg)
+![alt tag](https://i.ibb.co/KGGcggm/Unknown-3.jpg)
+![alt tag](https://i.ibb.co/gDCd6sr/Unknown-4.jpg)
+![alt tag](https://i.ibb.co/QYK5wMg/Unknown-5.jpg)
+![alt tag](https://i.ibb.co/VxqVJKz/Unknown-6.jpg)
+![alt tag](https://i.ibb.co/PMHXPrV/Unknown-7.jpg)
+![alt tag](https://i.ibb.co/1KcmpXC/Unknown-8.jpg)
+![alt tag](https://i.ibb.co/GVXSQwN/Unknown-9.jpg)
+![alt tag](https://i.ibb.co/MkDYLH2/Unknown-10.jpg)
+![alt tag](https://i.ibb.co/s388J27/Unknown-11.jpg)
+![alt tag](https://i.ibb.co/pQkXvV9/Unknown-12.jpg)
+![alt tag](https://i.ibb.co/wZnhVjw/Unknown-13.jpg)
+
+# Good Times Ahead!
