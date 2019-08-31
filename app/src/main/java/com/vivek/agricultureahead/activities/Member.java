@@ -52,33 +52,112 @@ public class Member {
 
 
                     loading.dismiss();
+                    int n = 5;
 
-                    Integer[] hindiText = {R.string.crop_production_card_title_hi, R.string.treatment_card_title_hi,
-                            R.string.storage_card_title_hi, R.string.horticulture_card_title_hi, R.string.policy_card_title_hi};
+                    for (i=10; i<=n; i++) {
 
-                    Integer[] englishText = {R.string.crop_production_card_title_en, R.string.treatment_card_title_en,
-                            R.string.storage_card_title_en, R.string.horticulture_card_title_en, R.string.policy_card_title_en};
+                        Integer[] hindiText = {};
+
+                        Integer[] englishText = {};
+                    }
 
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
-            }
         }
-
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public Integer[] hindiTexts(){
         Integer[] data={R.string.crop_production_card_title_hi,R.string.treatment_card_title_hi,
-                R.string.storage_card_title_hi,R.string.horticulture_card_title_hi,R.string.policy_card_title_hi};
+                R.string.storage_card_title_hi,R.string.horticulture_card_title_hi,R.string.policy_card_title_hi,R.string.video_title_hi};
         return data;
 
     }
     public Integer[] englishTexts() {
         Integer[] data = {R.string.crop_production_card_title_en,R.string.treatment_card_title_en,
-                R.string.storage_card_title_en,R.string.horticulture_card_title_en,R.string.policy_card_title_en};
+                R.string.storage_card_title_en,R.string.horticulture_card_title_en,R.string.policy_card_title_en, R.string.video_title_en};
         return data;
     }
     public Integer[] imageUrls() {
-        Integer[] data = {R.raw.production, R.raw.treat, R.raw.shc2, R.drawable.horticulture_main, R.raw.govp};
+        Integer[] data = {R.raw.production, R.raw.treat, R.raw.shc2, R.drawable.horticulture_main, R.raw.govp, R.raw.video};
         return data;
     }
 }

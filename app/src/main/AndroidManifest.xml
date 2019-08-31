@@ -105,6 +105,14 @@
                 android:value=".activities.Select_Policy" />
         </activity>
         <activity
+            android:name=".activities.Watch_Video"
+            android:label="@string/video_title"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity
             android:name=".activities.StateDepartment"
             android:label="@string/title_activity_state_department"
             android:theme="@style/AppTheme">

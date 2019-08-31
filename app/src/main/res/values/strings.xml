@@ -202,7 +202,6 @@
         जबकि देशी लम्बी किस्मों से इसकी लगभग आधी उपज प्राप्त होती है।
         देशी  किस्मो से असिंचित अवस्था में 15-20 क्विंटल  प्रति/हेक्टेयर उपज प्राप्त होती है। सुरक्षित
         भंडारण हेतु दानों में 10-12% से अधिक नमी नहीं होना चाहिए।
-1
     </string>
 
     <string name="ph1"> खाद्यान्नों में धान का महत्वपूर्ण स्थान है एंव विश्व की जनसंख्या का अधिकांश भाग दैनिक भोजन में चावल
@@ -630,6 +629,56 @@
 
     </string-array>
 
+
+
+
+    <string-array name="video_link">
+
+        <item name="link1">https://www.youtube.com/watch?v=FB160jCNpNc</item>
+
+        <item name="link2">https://www.youtube.com/watch?v=A5sWgIQJMTU</item>
+
+        <item name="link3">https://www.youtube.com/watch?v=RvtwoWpSNXQ</item>
+
+        <item name="link4">https://www.youtube.com/watch?v=USEfEXumuAk</item>
+        //
+
+        <item name="link5">https://www.youtube.com/watch?v=ZvtCt0G86E0</item>
+
+        <item name="link6">https://www.youtube.com/watch?v=1qBxthCQQHc</item>
+        //
+
+        <item name="link7">https://www.youtube.com/watch?v=MVhKCXk1fAk</item>
+        //
+
+        <item name="link8">https://www.youtube.com/watch?v=69hkarbmS60</item>
+        //
+
+    </string-array>
+
+    <string-array name="videos">
+        <item name="wheat">गेहूं कैसे उगाएं?</item>
+
+        <item name="paddy">धान कैसे उगाएं? </item>
+
+        <item name="toor">अरहर कैसे उगाएं? </item>
+
+        <item name="policy4">संक्रमित फसलों का इलाज कैसे करें?</item>
+
+        <item name="policy5">आम की फसल कैसे उगाएं?</item>
+
+        <item name="policy6">अमरूद की फसल कैसे उगाएं?</item>
+
+        <item name="policy7">केले की फसल कैसे उगाएं?</item>
+
+        <item name="policy8">सरकारी योजनाओं के लिए आवेदन कैसे करें?</item>
+
+    </string-array>
+
+    <string name="video_title_en">Watch How To?</string>
+
+    <string name="video_title_hi">यह कैसे होता है?</string>
+
     <string-array name="policies">
         <item name="policy1">प्रधानमंत्री फसल बीमा योजना</item>
 
@@ -784,6 +833,8 @@
     <string name="problem_title">Problems and Solution</string>
 
     <string name="policy_title">Government Schemes</string>
+
+    <string name="video_title">Watch How To?</string>
 
     <string name="treatment_detail_title">Treatment</string>
 

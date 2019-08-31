@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         final ProgressDialog progress = new ProgressDialog(this);
-        progress.setTitle("Connecting");
+        progress.setTitle("Loading");
         progress.setMessage("Please wait...");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -91,7 +91,8 @@ public class MainActivity extends AppCompatActivity
                 new Intent(MainActivity.this, SelectProblem.class),
                 new Intent(MainActivity.this, SoilHealthActivity.class),
                 new Intent(MainActivity.this, HorticultureActivity.class),
-                new Intent(MainActivity.this, Select_Policy.class)
+                new Intent(MainActivity.this, Select_Policy.class),
+                new Intent(MainActivity.this, Watch_Video.class)
         };
 
         Runnable progressRunnable = new Runnable() {
@@ -124,7 +125,7 @@ public class MainActivity extends AppCompatActivity
         progress.show();
 
         Handler pdCanceller = new Handler();
-        pdCanceller.postDelayed(progressRunnable, 3000);
+        pdCanceller.postDelayed(progressRunnable, 2000);
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -276,13 +277,113 @@ public class MainActivity extends AppCompatActivity
                 }catch (Exception ex){
                     Toast.makeText(getApplicationContext(), "Permissions required", Toast.LENGTH_SHORT).show();
                 }
-            }
-            return true;
         }
+            return true;
+    }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     void datasync() {
         Member.FetchData fetchData = new Member.FetchData();
     }
