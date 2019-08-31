@@ -7,13 +7,6 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
-
     <string name="about">About Application</string>
     <string name="about_text">
         Agriculture Ahead has been developed for the event AppOff conducted under UberTech 19.\n\nThis
@@ -28,10 +21,10 @@
     <string name="treatment_card_title_en">Crop Treatment Method</string>
     <string name="treatment_card_title_hi">प्रमुख समस्याएं एवं निवारण</string>
 
-    <string name="storage_card_title_en">Soil Health Card </string>
+    <string name="storage_card_title_en">Soil Health Card</string>
     <string name="storage_card_title_hi">मृदा स्वास्थ्य कार्डं</string>
 
-    <string name="survey_card_title_en"> Production Details</string>
+    <string name="survey_card_title_en">Production Details</string>
     <string name="survey_card_title_hi">उत्पादन का विवरण </string>
 
     <string name="horticulture_card_title_en">Horticulture Methods</string>

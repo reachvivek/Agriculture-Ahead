@@ -2,6 +2,7 @@ package com.vivek.agricultureahead.activities;
 
 import android.Manifest;
 import android.annotation.TargetApi;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -11,6 +12,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.text.method.LinkMovementMethod;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.view.GravityCompat;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -18,6 +20,11 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.vivek.agricultureahead.R;
 import com.vivek.agricultureahead.adapters.MainAdapter;
 import com.vivek.agricultureahead.models.MainListItem;
@@ -44,23 +51,40 @@ public class MainActivity extends AppCompatActivity
     private RecyclerView recyclerView;
     private MainAdapter adapter;
 
-    private Integer[] imageUrls={R.raw.production,R.raw.treat,R.raw.shc2,R.drawable.horticulture_main,R.raw.govp};
+    private Integer[] hindiTexts=(new Member().hindiTexts());
 
-    private Integer[] hindiTexts={R.string.crop_production_card_title_hi,R.string.treatment_card_title_hi,
-            R.string.storage_card_title_hi,R.string.horticulture_card_title_hi,R.string.policy_card_title_hi};
+    private Integer[] englishTexts=(new Member().englishTexts());
 
-    private Integer[] englishTexts={R.string.crop_production_card_title_en,R.string.treatment_card_title_en,
-            R.string.storage_card_title_en,R.string.horticulture_card_title_en,R.string.policy_card_title_en};
+    private Integer[] imageUrls=(new Member().imageUrls());
 
     private String[] backgroundColors={"#35e372","#a4f075","#ffff4d","#70dbdb","#cef63c","#ff9f80"};
 
-
+    DatabaseReference reff;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final ProgressDialog progress = new ProgressDialog(this);
+        progress.setTitle("Connecting");
+        progress.setMessage("Please wait...");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        reff = FirebaseDatabase.getInstance().getReference().child("Strings").child("Attributes");
+        reff.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String test = dataSnapshot.child("Connection").getValue().toString();
+                Toast.makeText(MainActivity.this, test, Toast.LENGTH_SHORT).show();
+                String[] hindiText={test};
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+                Toast.makeText(MainActivity.this, "Oops...", Toast.LENGTH_SHORT).show();
+
+            }
+        });
 
         Intent[] links={
                 new Intent(MainActivity.this, CropProductionActivity.class),
@@ -68,6 +92,14 @@ public class MainActivity extends AppCompatActivity
                 new Intent(MainActivity.this, SoilHealthActivity.class),
                 new Intent(MainActivity.this, HorticultureActivity.class),
                 new Intent(MainActivity.this, Select_Policy.class)
+        };
+
+        Runnable progressRunnable = new Runnable() {
+
+            @Override
+            public void run() {
+                progress.cancel();
+            }
         };
 
         list = new ArrayList<>();
@@ -88,6 +120,11 @@ public class MainActivity extends AppCompatActivity
         recyclerView = (RecyclerView) findViewById(R.id.recycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
+
+        progress.show();
+
+        Handler pdCanceller = new Handler();
+        pdCanceller.postDelayed(progressRunnable, 3000);
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -245,5 +282,8 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    void datasync() {
+        Member.FetchData fetchData = new Member.FetchData();
     }
 }

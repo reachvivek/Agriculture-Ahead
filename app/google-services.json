@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1051492884970",
+    "firebase_url": "https://agricultureahead.firebaseio.com",
+    "project_id": "agricultureahead",
+    "storage_bucket": "agricultureahead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051492884970:android:cbcb0483ec39015d",
+        "android_client_info": {
+          "package_name": "com.vivek.agricultureahead"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051492884970-tq2n627pu8n6n6vlr6h22meuhh9egsgg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vivek.agricultureahead",
+            "certificate_hash": "3061948e824d6bee7e793316b2c8873ad5ebd9b2"
+          }
+        },
+        {
+          "client_id": "1051492884970-6raf8cpaisoiuv7ak21s5cu1fgcfcqgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6v8TkOscGmP3iFBjNhwRPOWKcpAny-5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051492884970-6raf8cpaisoiuv7ak21s5cu1fgcfcqgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

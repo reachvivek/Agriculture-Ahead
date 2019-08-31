@@ -40,18 +40,18 @@
 
     <string-array name="state_links">
 
-        <item>	http://agri.and.nic.in </item>
+        <item>http://db.and.nic.in/nicobars/Depts/Agriculture.php</item>
         <item>http://www.apagrisnet.gov.in</item>
-        <item>	http://arunachalpradesh.nic.in</item>
-        <item>http://www.agriassam.in</item>
+        <item>http://www.agri.arunachal.gov.in</item>
+        <item>https://agri-horti.assam.gov.in</item>
         <item>http://krishi.bih.nic.in</item>
-        <item>	http://agripb.gov.in</item>
+        <item>http://agripb.gov.in</item>
         <item>http://agridept.cg.gov.in</item>
-        <item>	http://www.dnh.nic.in/Departments/Agriculture.aspx</item>
+        <item>http://dnh.nic.in/Departments/Agriculture.aspx</item>
         <item>http://agricoop.nic.in/</item>
         <item>http://agri.goa.gov.in</item>
         <item>https://agri.gujarat.gov.in/</item>
-        <item>	http://agriharyana.nic.in/</item>
+        <item>http://agriharyana.gov.in</item>
         <item>http://www.hpagriculture.com/</item>
         <item>	http://www.jkapd.nic.in/</item>
         <item>	http://www.jharkhand.gov.in/agri</item>
