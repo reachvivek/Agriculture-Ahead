@@ -199,7 +199,7 @@
 
         <provider
             android:name=".utils.StubContentProvider"
-            android:authorities=".authority"
+            android:authorities="com.vivek.agricultureahead.authority"
             android:exported="true" />
     </application>
 
