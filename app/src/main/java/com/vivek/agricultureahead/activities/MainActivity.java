@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity
         Intent[] links={
                 new Intent(MainActivity.this, CropProductionActivity.class),
                 new Intent(MainActivity.this, SelectProblem.class),
+                new Intent(MainActivity.this, WeatherActivity.class),
                 new Intent(MainActivity.this, SoilHealthActivity.class),
                 new Intent(MainActivity.this, HorticultureActivity.class),
                 new Intent(MainActivity.this, Select_Policy.class),
@@ -104,7 +105,7 @@ public class MainActivity extends AppCompatActivity
         };
 
         list = new ArrayList<>();
-        for(int i=0;i<imageUrls.length;i++){
+        for(int i=0;i<imageUrls.length-1;i++){
             MainListItem item=new MainListItem();
 
             item.setImageUrl(imageUrls[i]);

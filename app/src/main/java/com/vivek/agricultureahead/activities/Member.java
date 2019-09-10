@@ -145,19 +145,73 @@ public class Member {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public Integer[] hindiTexts(){
-        Integer[] data={R.string.crop_production_card_title_hi,R.string.treatment_card_title_hi,
+        Integer[] data={R.string.crop_production_card_title_hi,R.string.treatment_card_title_hi,R.string.weather_card_title_hi,
                 R.string.storage_card_title_hi,R.string.horticulture_card_title_hi,R.string.policy_card_title_hi,R.string.video_title_hi};
         return data;
 
     }
     public Integer[] englishTexts() {
-        Integer[] data = {R.string.crop_production_card_title_en,R.string.treatment_card_title_en,
+        Integer[] data = {R.string.crop_production_card_title_en,R.string.treatment_card_title_en, R.string.weather_card_title_en,
                 R.string.storage_card_title_en,R.string.horticulture_card_title_en,R.string.policy_card_title_en, R.string.video_title_en};
         return data;
     }
     public Integer[] imageUrls() {
-        Integer[] data = {R.raw.production, R.raw.treat, R.raw.shc2, R.drawable.horticulture_main, R.raw.govp, R.raw.video};
+        Integer[] data = {R.raw.production, R.raw.treat, R.raw.weather, R.raw.shc2, R.drawable.horticulture_main, R.raw.govp, R.raw.video};
         return data;
     }
 }
